@@ -8,7 +8,7 @@
         width: 22px; 
         height: 21px;
     }
-    
+
     .item2 img {
         width: 22px; 
         height: 22px;
@@ -101,3 +101,424 @@ margin-right: 10px;
 .item1{
     margin-left: 15%;
 }
+
+
+/*               Main-part1 start       */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    width: 100%;
+}
+
+.main-part-1{
+    font-family: "Roboto", sans-serif;
+    padding: 5%;
+}
+
+/* page1 */
+
+.page1{
+    margin: 0;
+}
+.page1-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.basliq1 h1{
+    font-weight: bold;
+    font-size: 80px;
+    margin: 0;
+}
+.basliq1 p{
+    font-size: 20px;
+    margin: 0;
+}
+.sekil1{
+    width: 100%;
+    min-width: 150px;
+    max-width: 304px;
+    margin-right: 170px;
+}
+
+.blue-box{
+    margin-top: 67px;
+    margin-bottom: 0;
+    max-width: 883px;
+    max-height: 200px;
+    width: 100%;
+    margin-left: 409.39px;
+    
+}
+
+.p1{
+    font-size: 25px;
+    color: white;
+    background-color: #1E4681;
+    padding: 3% 3% 5% 3%;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 0;
+    
+}
+
+.text{
+    width: auto;
+    margin-top: 0;
+}
+
+.p2{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -87px;
+    right: -650px;
+}
+
+
+
+/* page2 */
+
+
+.page2-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.text{
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    margin-bottom: 0;
+    
+}
+.text h2{
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 140px;
+}
+.text p{
+    font-size: 24px;
+}
+
+.sekil2{
+    margin-top: 257px;
+    width: 100%;
+    min-width: 180px;
+    max-width: 354px;
+    margin-right: 150px;
+}
+
+.page2-bottom{
+    height: 300px;
+    width: 100%;
+    padding-top: 0;
+    display: flex;
+    margin-right: 200px;
+}
+
+.block{
+    width: 100%;
+    max-width: 150px;
+    margin-right: 95px;
+    margin-top: 100px;
+}
+.sekil3{
+    margin-right: 115px;
+    margin-top: 50px;
+
+}
+.block h2{
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.block p{
+    font-size: 18px;
+    margin-top: 10x;
+}
+
+
+/* page3 */
+
+.page3{
+    margin-top: 162px;
+    margin-bottom: 0;
+}
+
+.sekil3{
+    width: 100%;
+    min-width: 130px;
+    max-width: 240px;
+    margin-top: 80px;
+
+}
+
+.page3 h1{
+    font-size: 55px;
+    margin: 0;
+}
+.page3-details{
+    margin-top: 89px;
+    margin-bottom: 0;
+    width: 87%;
+    padding-top: 0;
+    display: flex;
+    margin-right: 115px;
+    justify-content: space-between;
+    
+    
+}
+.detail{
+    margin-bottom: 0;
+}
+.page3 h2{
+    color: #1E4681;
+    font-size: 25px;
+    
+}
+.page3 p{
+    font-size: 18px;
+}
+/* page4 */
+
+
+.page4{
+    margin-top: 180px;
+    width: 100%;
+    height: auto;
+}
+.page4 h1{
+    font-size: 55px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 53px;
+}
+
+
+li{
+    font-size: 24px;
+    margin-right: 122px;
+    width: 100%;
+}
+
+/* desktop */
+@media (min-width: 1440px){
+
+}
+
+
+/* tablet */
+
+@media (min-width: 834px) and (max-width: 1440px){
+
+    .basliq1 h1{
+        font-size: 46px;
+    }
+    .basliq1 p{
+        font-size: 12px;
+    }
+    .main-part-1{
+        padding: 5%;
+    }
+    .sekil1{
+        width: 20%;
+        margin-right: 80px;
+    }
+
+
+    .blue-box{
+        width: 100%;
+        margin-left: 150px;
+        margin-top: 47px;
+        
+    }
+
+    .sekil2{
+       width: 30%;
+       margin-right: 50px;
+    }
+
+    .text{
+       width: 100%;
+       margin-right: 100px;
+       
+    }
+
+    .text h2{
+        font-size: 32px;
+    }
+    .text p{
+        font-size: 14px;
+    }
+
+    
+    .block{
+        min-width: 135px;
+        margin-right: 55px;
+    }
+    .block h2{
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .block p{
+        font-size: 11px;
+        margin-top: 10x;
+    }
+
+
+    .sekil3{
+        width: 30%;
+        max-width: 140px;
+        margin-right: 80px;
+        
+    }
+    .page3 h1{
+        font-size: 32px;
+    }
+    .page3-details{
+        margin-right: 46px;
+        margin-top: 55px;
+    }
+    .page3 h2{
+        font-size: 15px;
+        
+    }
+    .page3 p{
+        font-size: 11px;
+    }
+    .page4{
+        margin-top: 103px;
+        width: 100%;
+    }
+
+    .page4 h1{
+        font-size: 32px;
+        }
+    .page4 li{
+        font-size: 14px;
+        }
+}
+
+
+/* mobile */
+@media screen and (min-width: 375px) and (max-width: 834px){
+    .basliq1 h1{
+        font-size: 37px;
+    }
+    .basliq1 p{
+        font-size: 10px;
+    }
+    .sekil1{
+        width: 20%;
+        margin-right: 10px;
+        margin-left: 150px;
+    }
+
+    .blue-box{
+        width: 100%;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    .blue-box .p1{
+        font-size: 14px;
+    }
+    .blue-box .p2{
+        font-size: 11px;
+    }
+    .page2{
+        margin-top: 40px;
+
+    }
+
+    .text{
+        width: 100%;
+    }
+
+    .page1-top{
+        display: flex;
+        flex-direction: column;
+    }
+    .page2-top{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .sekil2{
+        width: 40%;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        margin-left: 65px;       
+    }
+
+    .block{
+        min-width: 135px;
+        margin-right: 55px;
+        margin-top: 0;
+    }
+    .page2-bottom{
+        display: flex;
+        flex-wrap: wrap;
+        height: 170px;
+        margin-top: 40px;
+    }
+    .block h2{
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .block p{
+        font-size: 11px;
+        margin-top: 10x;
+    }
+
+    .sekil3{
+        display: none;
+    }
+    .page3 h1{
+        font-size: 26px;
+    }
+    .page3-details{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-top: 19px;
+}
+
+.page3 h2{
+    font-size: 12px;
+   
+}
+.page3 p{
+    font-size: 10px;
+}
+.main-part-1{
+    padding: 10%;
+}
+
+.text h2{
+    font-size: 26px;
+}
+.text p{
+    font-size: 12px;
+}
+.page4 h1{
+font-size: 26px;
+}
+.page p{
+font-size: 12px;
+}
+.page4{
+    margin-top: 73px;
+    width: 100%;
+}
+.page4 h1{
+    font-size: 26px;
+    }
+.page4 li{
+    font-size: 12px;
+    }
+}
+/*               Main-part1 end        */
