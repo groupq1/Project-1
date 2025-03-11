@@ -1,0 +1,103 @@
+@media (min-width: 1440px) {
+.logo{
+    width: 112px;
+    height: 66px;
+}
+
+    .item1 img {
+        width: 22px; 
+        height: 21px;
+    }
+    
+    .item2 img {
+        width: 22px; 
+        height: 22px;
+    }
+    
+    .item3 img {
+        width: 20px; 
+        height: 22px;
+    }
+    
+}
+
+
+@media (max-width: 1439px) and (min-width: 835px) {
+    .logo{
+        width: 64.87px;
+        height: 33.23px;
+    }
+
+    .item1 img {
+        width: 12.74px; 
+        height: 12.16px;
+    }
+    
+    .item2 img {
+        width: 12.74px; 
+        height: 12.74px;
+    }
+    
+    .item3 img {
+        width: 11.58px; 
+        height: 12.74px;
+    }
+}
+@media (max-width: 834px) and (min-width: 375px) {
+    .logo{
+        width: 52.19px;
+        height: 30.75px;
+    }
+    .item1 img {
+        width: 10.25px; 
+        height: 9.79px;
+    }
+    
+    .item2 img {
+        width: 10.25px; 
+        height: 10.25px;
+    }
+    
+    .item3 img {
+        width: 9.72px; 
+        height: 10.25px;
+    }
+}
+
+body{
+    margin-left: 70px;
+}
+
+.logo{
+    margin-top: 21px;
+    margin-bottom: 100px;
+    margin-left: 15%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    font-size: 20px;
+    font-family: "Roboto";
+    flex-direction: row;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+
+.container img{
+margin-right: 10px;
+
+}
+.item{
+    margin-right: 25px;
+}
+.item1{
+    margin-left: 15%;
+}
