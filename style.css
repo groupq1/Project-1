@@ -1,0 +1,342 @@
+/* ============================== Necessary part Start ================================ */
+body {
+  font-family: 'Roboto', 'Roboto Slab', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+    flex: 0 0 auto; /* Keeps height based on content */
+    width: 100%; /* Ensures full width */
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto; /* Allows main to grow and shrink as needed */
+}
+
+.main-part-1, .main-part-2 {
+    flex: 1 1 auto; /* Allows sections to grow and shrink as needed */
+}
+
+/* ============================== Necessary part End ================================ */
+
+/* ============================== Main-part-2  Mobile Start================================ */
+
+@media (min-width: 375px ) and (max-width: 834px) {
+    .main-part-2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-heading{
+    font-family:'Roboto Slab', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0 0 53px 9%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25% 24px 25%;
+    width: 49.5%;
+    max-width: 231px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+
+.card-heading{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0 14px 0;
+    padding: 0 3.5% 0 5%;
+}
+
+.card-text{
+    font-size: 12px;
+    margin: 0 0 10.7px 0;
+    padding: 0 4% 0 4.5%;
+}
+
+.profile-container{
+    background-color: #EFEFEF;
+}
+.profile-heading{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 42px 22% 11px 9.6%;
+}
+
+
+.profile-text{
+    margin: 18px 6.8% 21.5px;
+}
+
+.profile-label{
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    margin: 30px 8.6% 53px 9.6%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+}
+
+.profile-bottom{
+    display: flex;
+    flex-direction: row;
+    margin: 0 5.5% 13px;
+}
+
+.profile-image{
+    width: 80px;
+    height: 84px;
+}
+.profile-name{
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 2.3%;
+}
+
+.main-part-logo{
+    width: 14.91px;
+    height: 17.2px;
+}
+
+.price-container{
+   background-color: #9DC9C8;
+}
+
+.price-heading-1{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 62px 31.5% 33.3px 9.4%;
+}
+.price{
+    margin: 0 31.5% 36.5px 9.4%;
+}
+
+.price-text{
+    margin: 0;
+}
+.price-heading-2{
+    margin: 0;;
+}
+
+.course-info-container{
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+    margin: 0 9.4% 72px 8.8%;
+}
+/* ============================== Main-part-2  Mobile End================================ */
+
+
+/* ============================== Main-part-2  Tablet Start================================ */
+
+@media (min-width: 834px) and (max-width: 1440px) {
+    .section-heading{
+    font-size: 32px;
+    margin: 0 0 72.7px 8.4%;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto auto;
+        gap: 22px 0; 
+        margin: 0px 5.8% 52px;
+      }
+    
+      .card {
+        max-width: 399px;
+        width: 94%;
+        margin: 0;
+      }
+
+      .card-heading{
+        font-size: 17px;
+      }
+
+      .card-text{
+        font-size: 14px;
+      }
+
+      .profile-container{
+        padding: 53px 23% 63.75px 8.5%;
+      }
+
+      .profile-heading{
+        font-size: 32px;
+        margin: 0;
+      }
+
+      .price-text{
+        font-size: 12px;
+      }
+
+      .profile-name{
+        font-size: 17px;
+      }
+
+      .profile-label{
+        width: 80.2%;
+        margin: 31.26px 0 0 0;
+      }
+
+      .price-heading-1{
+        font-size: 32px;
+        margin: 103.67px 0 31.27px 8.4%;
+      }
+
+      .price{
+        margin:0 58% 42.77px 8.4%;
+      }
+
+      .price-text{
+        font-size: 14px;
+      }
+
+      .price-heading-2{
+        font-size: 46px;
+      }
+
+      .course-info-container{
+        margin: 0 45.8% 107px 8.4%;
+        gap: 41px;
+      }
+
+      .info-heading{
+        margin: 0;
+        font-size: 14px;
+      }
+
+      .info-text{
+        margin: 0;
+        font-size: 10px;
+      }
+    }
+
+
+
+
+/* ============================== Main-part-2  Tablet End================================ */
+
+
+
+
+/* ============================== Main-part-2  Desktop Start================================ */
+@media (min-width: 1440px) {
+    .section-heading{
+        font-size: 54px;
+        margin: 0 0 95px 8.4%;
+    }
+
+    
+    
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(100px, 1fr));
+        grid-template-rows: auto auto auto;
+        gap: 41px 0;
+        margin: 0px 5.8% 121px;
+      }
+    
+      .card {
+        min-width: 399px;
+        width: 100%;
+        margin: 0;
+      }
+
+      .card-heading{
+        font-size: 30px;
+      }
+
+      .card-text{
+        font-size: 25px;
+      }
+.profile-container{
+      padding: 91px 33.5% 111px 8.5%;
+    }
+
+    .profile-heading{
+        font-size: 55px;
+        margin-bottom: 67px;
+    }
+
+    .profile-label{
+        padding: 40px 5.5% 29px 4.6%;
+        width: 94.6%;
+        height: 30%;
+    }
+
+    .profile-text{
+        font-size: 20px;
+    }
+
+    .profile-name{
+        font-size: 30px;
+    }
+
+    .profile-image{
+        width: 190px;
+        height: 169px;
+    }
+ .main-part-logo{
+    width: 31px;
+    height: 32px;
+ }
+
+ .price-container{
+    padding: 179px 29.3% 185px 8.5%;
+ }
+ .price-heading-1{
+    font-size: 55px;
+    margin: 0 0 67px 0;
+  }
+
+  .price{
+    margin: 0 0 79px 0;
+  }
+
+  .price-text{
+    font-size: 25px;
+  }
+
+  .price-heading-2{
+    font-size: 80px;
+  }
+  .course-info-container{
+    margin: 0 0 67px 0;
+    gap: 70px;
+  }
+
+  .info-text{
+    font-size: 18px;
+  }
+
+  .info-heading{
+    font-size: 25px;
+  }
+}
+
+/* ============================== Main-part-2  Desktop End================================ */
