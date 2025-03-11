@@ -866,3 +866,107 @@ body {
   }
   
   /* ============================== Main-part-2  Desktop End================================ */
+
+
+  .site-footer {
+    background-color: #111;
+    color: #fff;
+    padding: 4rem 0;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer-logo-section {
+    margin-bottom: 2rem;
+}
+
+.footer-logo {
+    max-width: 200px;
+    margin-bottom: 1.5rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+footer a img {
+    width: 3.3rem;
+    height: 3.3rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon-phone, .icon-email {
+    width: 2rem;
+    height: 2rem;
+}
+
+.contact-item p {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.footer-copy {
+    display: inline-block;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+@media (max-width: 991px) {
+    .footer-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo-section {
+        text-align: center;
+    }
+    .footer-copy {
+        margin-top: 4rem;
+        margin-left: calc(100vw*0.2);
+    
+        
+    }
+   
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+    .contact-item {
+        display: flex;
+        align-items: center;
+        margin-right: 50px;
+        gap: 1rem;
+    }
+
+    .footer-copy {
+        margin-top: 4rem;
+    
+        
+    }
+}
